@@ -1,0 +1,162 @@
+.center{
+
+  text-align: center;
+
+}
+
+.right{
+
+  text-align: right;
+
+}
+
+a.p1{
+
+  text-decoration:none;
+  font: Calibri;
+  font-size: 24px;
+  color: white;
+  word-spacing: 10px;
+
+}
+
+a.p2{
+
+  text-decoration:none;
+  font: Calibri;
+  font-size: 24px;
+  color: white;
+  word-spacing: 10px;
+
+}
+
+div.div1{
+
+  background-color: black;
+  line-height: 75px;
+
+}
+
+div.img1{
+
+  background-color: green;
+  margin-left: auto;
+
+}
+
+img.ifsp{
+
+  padding: 10;
+  width: 750px;
+  height: 450px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+div.border{
+
+  border-style: dashed;
+  border-color: blue;
+  border-width: 1;
+  line-height: 0;
+
+}
+
+.menu{
+list-style:none;
+background-color: black;
+line-height: 65px;
+font-size: 20px;
+}
+
+.menu li{
+position:relative;
+float: left;
+background-color: black;
+}
+
+.menu li a{color:#fff; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+}
+
+.menu li  ul{
+position:absolute;
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:none;
+display:block;
+width:150px;
+}
+
+label.label{
+
+  width: 100%;
+
+}
+
+input.bt1{
+
+  width: 100%;
+  background-color: green;
+  height: 50px;
+  border: none;
+  color: white;
+
+}
+
+input.usu{
+
+  width: 100%;
+  height: 50px;
+
+}
+
+p.fundo{
+
+  background-color: rgba(128, 128, 128, 0.205);
+
+}
+
+.a{
+
+  width: 100%;
+  height: 50px;
+
+}
+
+.a2{
+
+  width: 100%;
+  height: 70px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.img{
+
+  height: 75%;
+  width: 50%;
+
+}
